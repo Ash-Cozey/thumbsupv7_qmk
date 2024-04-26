@@ -1,4 +1,6 @@
 {
     "userspace_version": "1.0",
-    "build_targets": []
+    "build_targets": [
+        ["thumbsup/rev7_rp2040_split_5x12", "default_5x12_v7_via"]
+    ]
 }

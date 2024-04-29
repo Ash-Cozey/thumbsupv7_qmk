@@ -3,3 +3,4 @@ SERIAL_DRIVER = vendor
 CAPS_WORD_ENABLE = yes
 SRC += features/achordion.c
 //TAP_DANCE_ENABLE = yes
+COMMAND_ENABLE = no

@@ -43,7 +43,7 @@
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500 // Timeout window in ms in which the double tap can occur.
 
-#define TAPPING_TERM 170//200 //120 //00 //90 //200 // how long before a tap becomes a hold
+#define TAPPING_TERM 170 //200 //120 //00 //90 //200 // how long before a tap becomes a hold
 #define TAPPING_TERM_PER_KEY
 
 #define PERMISSIVE_HOLD
@@ -57,6 +57,8 @@
 
 #define USB_POLLING_INTERVAL_MS 1
 
+//Space Cadet mod
+#define LSPO_KEYS KC_LSFT, KC_TRNS, KC_BSPC
 
 //The number of layers for VIA/REMAP
 //#define DYNAMIC_KEYMAP_LAYER_COUNT 10
